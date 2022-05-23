@@ -1,0 +1,102 @@
+
+/* smartphone and tablet common */
+@media screen and (max-width: 63.9375em) {
+    
+}
+
+/* smartphone */
+@media screen and (max-width: 46.1875em) {
+    #nav > li {
+        display: block;
+        width: 100%;
+    }
+
+    #nav li a {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+        width: auto;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+    }
+
+    #nav .subnav li {
+        padding: 8px 40px;
+    }
+
+    #nav li a {
+        /* padding: 1px 24px; */
+        line-height: 48px;
+    }
+
+    #header {
+        overflow: hidden;
+        height: 46px;
+    }
+
+    #header .menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #header .menu-btn:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+    #header .menu-btn:hover .menu-icon{
+        color: #000;
+    }
+
+    #header .menu-icon {
+        line-height: 48px;
+    }
+
+    .mobile-col-full {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 20px 17px;
+        float: none;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #footer .media-list {
+        margin: 0 8px;
+    }
+
+    #footer .media-list a {
+        font-size: 48px;
+    }
+
+    .mobile-mb-8 {
+        margin-bottom: 8px;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+    #footer .media-list {
+
+        margin: 0 8px;
+    }
+    #footer .media-list a {
+        font-size: 48px;
+    }
+}
